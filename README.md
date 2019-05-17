@@ -1,7 +1,7 @@
 # Star Wars planet encyclopedia.
 The project was created for ReactJS learning. 
 
-Built app is deployed to [https://maldawid.github.io/Star-Wars/](https://github.com/maldawid/Star-Wars.git/)
+Built app is deployed to [https://maldawid.github.io/Star-Wars/](https://maldawid.github.io/Star-Wars/)
 
 ## Project requirements
 ### Overview
