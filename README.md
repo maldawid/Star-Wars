@@ -1,70 +1,51 @@
-Built app is deployed to [https://maldawid.github.io/Star-Wars-planet-encyclopedia/](https://maldawid.github.io/Star-Wars-planet-encyclopedia/)
+# Star Wars planet encyclopedia.
+The project was created for ReactJS learning. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built app is deployed to [https://maldawid.github.io/Star-Wars/](https://maldawid.github.io/Star-Wars-planet-encyclopedia/)
 
-## Available Scripts
+## Project requirements
+### Overview
+We want you to complete a task that will show off your React skills and knowledge of JS tools and features. Here are some key things we will be looking for:
+- Project structure and architecture; patterns and naming conventions
+- Use of the latest React features
+- Use of the latest language features
+- Communication with the API
+- Your code style
 
-In the project directory, you can run:
+### Business requirements:
+- The application communicates with an open Star Wars REST API (https://swapi.co/) or the GraphQL version of the same API (https://graphql.org/swapi-graphql/)
+- The mockups are available on Figma - https://www.figma.com/file/UUUuTRYk4kelxxUueQpVfC/front-end-task-1.0-(Copy)
 
-### `npm start`
+#### Here are the steps you should complete:
+1. On the application load, fetch all movies from the API
+2. Render a collapsible element on the list for each movie
+3. Render a table that displays data for the planets in each movie inside the collapsible element. The planets for a specific movie should be fetched when we expand the movie details, not on initial app load. Tables should be sortable by column
+4. In the last collapsible element on the list, plan your own Star Wars movie. Provide a movie title and search for the planets you want to include in the movie. The title must start with a capital letter and be at least three letters long
+5. Use search to fetch data from the API (search is implemented for each resource - dive into documentation). The dropdown can be implemented or you can use any library or datalist. When you complete the form, saving the movie should transform it into a list that behaves the same as movies fetched from the API, and the form should be cleared
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Requirements:
+- The app can use one of the following state patterns: class components state, redux, react hooks or Apollo Client cache
+- You can use JavaScript with babel or TypeScript
+- We are looking for responsive design
+- For styling use SCSS or any css-in-js solution
+- The app must work. Please verify that, after cloning the repo and installing the dependencies, the app builds and works in the browser
+- It need to work in Chrome (additional browser support is not required)
+- Please send us your code as a git repository
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### It’s a great chance to show us what you can do. We’ll be giving out additional points for:
+- Using a GraphQL API
+- Own webpack configuration (not using create-react-app or boilerplates)
+- Simple component tests in Jest with Enzyme/react-testing-library
+- PropTypes or TypeScript types defined for components
+- Persisting custom movies between page reloads (you can use localStorage for example)
+- Built app is deployed to https://pages.github.com/
 
-### `npm test`
+## Installing a project
+### 1. Clone a repository
+ - Open terminal and execute the command `git clone https://github.com/maldawid/Star-Wars.git`
+### 2. Runs the app in the development mode.
+- cd [Repository-Directory] (you need to go to project's main directory which contains package.json file)
+- Execute the command `npm install`
+- Execute the command `npm start`
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
