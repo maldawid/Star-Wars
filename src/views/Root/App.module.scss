@@ -1,0 +1,31 @@
+.container {
+    max-width: 790px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 96px;
+    background: #e0e6ee;
+    border-radius: 8px;
+    min-height: 736px;
+    position: relative;
+    margin-bottom: 96px;
+    padding-bottom: 27px;
+  }
+
+  .logo {
+    text-align:center;
+    padding: 32px;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container {
+     padding-left: 0;
+     padding-right: 0;
+    }
+
+    body {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  }

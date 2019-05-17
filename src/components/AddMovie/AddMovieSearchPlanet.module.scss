@@ -1,0 +1,62 @@
+.SearchPlanet {
+  background-color: #ffffff;
+  border: none;
+  color: #555555;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "Barlow", sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.SearchPlanet:hover {
+  transition-duration: 0.4s;
+  background-color: #1ba1be;
+  color: white;
+  border-radius: 4px;
+}
+
+.listPlanet {
+  position: absolute;
+  background: #ffffff;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.5);
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+.searching {
+  background-color: #ffffff;
+  border: none;
+  color: #555555;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "Barlow", sans-serif;
+  margin-top: 10px;
+}
+
+.warning {
+  background-color: #ffffff;
+  border: 1px solid #ff1616;
+  color: #ff1616;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "Barlow", sans-serif;
+  margin-top: 10px;
+}

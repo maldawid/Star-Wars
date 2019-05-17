@@ -1,0 +1,24 @@
+.title {
+  list-style: none;
+  background: #ffffff;
+  font-family: "Barlow", sans-serif;
+  line-height: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00687f;
+  box-shadow: 0px 2px 1px rgba(196, 196, 196, 0.2);
+  border-radius: 4px;
+  margin: 16px 30px;
+  animation: addmovie 0.5s ease;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.title__h2 {
+  padding: 14px 15px;
+  font-family: "Barlow", sans-serif;
+  line-height: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00687f;
+}
